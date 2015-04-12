@@ -73,10 +73,10 @@ existing issues to see if that topic has come up before posting.
 
 ### Contributing
 
-**NSQ** has a growing community and contributions are always welcome (particularly documentation).
+NSQ has a growing community and contributions are always welcome (particularly documentation).
 To contribute, fork the project on [github][github_nsq] and send a pull request.
 
-### Contributors
+### Acknowledgements
 
 NSQ was designed and developed by Matt Reiferson ([@imsnakes][snakes_twitter]) and Jehiah Czebotar
 ([@jehiah][jehiah_twitter]) but wouldn't have been possible without the support of [bitly][bitly]

@@ -457,9 +457,9 @@ occurs rather than trying to reduce chattiness at the expense of usefulness.
 [issue_3512]: https://code.google.com/p/go/issues/detail?id=3512
 [issue_4720]: https://code.google.com/p/go/issues/detail?id=4720
 [issue_5376]: https://code.google.com/p/go/issues/detail?id=5376
-[godeps]: https://github.com/bitly/nsq/blob/master/Godeps
+[godeps]: https://github.com/nsqio/nsq/blob/master/Godeps
 [runtime_time]: http://golang.org/src/pkg/runtime/time.goc?s=1684:1787#L83
 [autobench]: https://github.com/davecheney/autobench
 [escape_an]: http://en.wikipedia.org/wiki/Escape_analysis
-[base10_convert]: https://github.com/bitly/nsq/blob/master/util/byte_base10.go#L7-L27
+[base10_convert]: https://github.com/nsqio/nsq/blob/master/util/byte_base10.go#L7-L27
 [topology_patterns]: http://nsq.io/deployment/topology_patterns.html

@@ -60,8 +60,8 @@ there's a [protocol spec][protocol] (see [client libraries][client_libraries]).
 
 ### Getting Help
 
-* **Source**: [https://github.com/bitly/nsq][github_nsq]
-* **Issues**: [https://github.com/bitly/nsq/issues][github_issues]
+* **Source**: [https://github.com/nsqio/nsq][github_nsq]
+* **Issues**: [https://github.com/nsqio/nsq/issues][github_issues]
 * **Mailing List**: [nsq-users@googlegroups.com][google_group]
 * **IRC**: #nsq on freenode
 * **Twitter**: [@nsqio][nsqio_twitter]
@@ -85,11 +85,11 @@ and all our [contributors][contributors].
 [features_guarantees]: {{ site.baseurl }}/overview/features_and_guarantees.html
 [protocol]: {{ site.baseurl }}/clients/tcp_protocol_spec.html
 [client_libraries]: {{ site.baseurl }}/clients/client_libraries.html
-[github_issues]: https://github.com/bitly/nsq/issues
-[github_nsq]: http://github.com/bitly/nsq
+[github_issues]: https://github.com/nsqio/nsq/issues
+[github_nsq]: http://github.com/nsqio/nsq
 [google_group]: http://groups.google.com/group/nsq-users
 [snakes_twitter]: https://twitter.com/imsnakes
 [jehiah_twitter]: https://twitter.com/jehiah
 [bitly]: https://bitly.com
-[contributors]: https://github.com/bitly/nsq/graphs/contributors
+[contributors]: https://github.com/nsqio/nsq/graphs/contributors
 [nsqio_twitter]: https://twitter.com/nsqio

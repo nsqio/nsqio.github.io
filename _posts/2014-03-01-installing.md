@@ -48,7 +48,7 @@ builds.  **Using `gpm` is the preferred method when compiling from source.**
 
 {% highlight bash %}
 $ gpm install
-$ go get github.com/bitly/nsq/...
+$ go get github.com/nsqio/nsq/...
 {% endhighlight %}
 
 NSQ remains `go get` compatible but it is not recommended as it is not guaranteed to

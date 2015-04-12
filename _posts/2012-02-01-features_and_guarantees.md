@@ -73,7 +73,7 @@ still answer queries.  Deployment topology has the most significant effect of mi
 types of issues.
 
 [performance]: {{ site.baseurl }}/overview/performance.html
-[nsqlookupd]: https://github.com/bitly/nsq/tree/master/nsqlookupd/README.md
-[nsqadmin]: https://github.com/bitly/nsq/tree/master/nsqadmin/README.md
+[nsqlookupd]: https://github.com/nsqio/nsq/tree/master/nsqlookupd/README.md
+[nsqadmin]: https://github.com/nsqio/nsq/tree/master/nsqadmin/README.md
 [statsd]: https://github.com/etsy/statsd/
 [graphite]: http://graphite.wikidot.com/

@@ -10,3 +10,5 @@ Offline documentation requires [jekyll][jekyll]:
 $ gem install jekyll
 $ jekyll serve --safe --baseurl ''
 ```
+
+[jekyll]: http://jekyllrb.com/

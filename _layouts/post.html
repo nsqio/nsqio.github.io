@@ -2,7 +2,33 @@
 layout: default
 ---
 
-<h2 class="post-header">{{ page.title }}</h2>
-
-{{ content }}
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 sidebar">
+      <ul class="nav navbar-nav">
+        {% for category in site.categories %}
+          {% if category[0] != "blog" %}
+          <li>
+            <span class="nav-header">{{ category[0] }}</span>
+            <ul class="nav">
+            {% for post in category[1] %}
+              <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            {% if category[0] == "links" %}
+              <li><a href="https://github.com/nsqio/nsq/releases">Release Notes</a></li>
+              <li><a href="https://github.com/nsqio/nsq">GitHub Repo</a></li>
+              <li><a href="https://github.com/nsqio/nsq/issues">Issues</a></li>
+              <li><a href="http://groups.google.com/group/nsq-users">Google Group</a></li>
+            {% endif %}
+            </ul>
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-9 doc-content">
+      <h1 class="page-header">{{ page.title }}</h1>
+      {{ content }}
+    </div>
+  </div>
+</div>

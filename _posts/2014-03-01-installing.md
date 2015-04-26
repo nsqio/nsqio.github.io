@@ -10,7 +10,7 @@ permalink: /deployment/installing.html
 Pre-built binaries (`nsqd`, `nsqlookupd`, `nsqadmin`, and all example apps) for linux and darwin are
 available for download:
 
-#### Current Stable Release: **`v0.3.3`**
+#### Current Stable Release: **`v0.3.4`**
 
  * [nsq-0.3.4.darwin-amd64.go1.4.2.tar.gz][0.3.4_darwin_go142]
  * [nsq-0.3.4.linux-amd64.go1.4.2.tar.gz][0.3.4_linux_go142]

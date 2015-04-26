@@ -12,8 +12,8 @@ available for download:
 
 #### Current Stable Release: **`v0.3.3`**
 
- * [nsq-0.3.3.darwin-amd64.go1.4.2.tar.gz][0.3.3_darwin_go142]
- * [nsq-0.3.3.linux-amd64.go1.4.2.tar.gz][0.3.3_linux_go142]
+ * [nsq-0.3.4.darwin-amd64.go1.4.2.tar.gz][0.3.4_darwin_go142]
+ * [nsq-0.3.4.linux-amd64.go1.4.2.tar.gz][0.3.4_linux_go142]
 
 #### Older Stable Releases
 
@@ -60,8 +60,8 @@ produce reliable builds (pinned dependencies need to be satisfied manually).
 $ ./test.sh
 {% endhighlight %}
 
-[0.3.3_darwin_go142]: https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.3.darwin-amd64.go1.4.2.tar.gz
-[0.3.3_linux_go142]: https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.3.linux-amd64.go1.4.2.tar.gz
+[0.3.4_darwin_go142]: https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.4.darwin-amd64.go1.4.2.tar.gz
+[0.3.4_linux_go142]: https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.4.linux-amd64.go1.4.2.tar.gz
 
 [0.3.2_darwin_go141]: https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.2.darwin-amd64.go1.4.1.tar.gz
 [0.3.2_linux_go141]: https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.2.linux-amd64.go1.4.1.tar.gz

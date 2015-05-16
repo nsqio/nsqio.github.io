@@ -30,21 +30,20 @@ there's a [protocol spec][protocol] (see [client libraries][client_libraries]).
 <td align="center"><a href="http://trendrr.com"><img src="{{ site.baseurl }}/static/img/trendrr_logo.png" width="97"/></a></td>
 <td align="center"><a href="http://reonomy.com"><img src="{{ site.baseurl }}/static/img/reonomy_logo.png" width="100"/></a></td>
 </tr><tr>
-<td align="center"><a href="http://dramafever.com"><img src="{{ site.baseurl }}/static/img/dramafever.png" width="120"/></a></td>
 <td align="center"><a href="http://hw-ops.com"><img src="{{ site.baseurl }}/static/img/heavy_water.png" width="50"/></a></td>
 <td align="center"><a href="http://lytics.io"><img src="{{ site.baseurl }}/static/img/lytics.png" width="100"/></a></td>
 <td align="center"><a href="http://mediaforge.com"><img src="{{ site.baseurl }}/static/img/rakuten.png" width="100"/></a></td>
 <td align="center"><a href="http://socialradar.com"><img src="{{ site.baseurl }}/static/img/socialradar_logo.png" width="100"/></a></td>
 <td align="center"><a href="http://wistia.com"><img src="{{ site.baseurl }}/static/img/wistia_logo.png" width="140"/></a></td>
-</tr><tr>
 <td align="center"><a href="http://stripe.com"><img src="{{ site.baseurl }}/static/img/stripe_logo.png" width="140"/></a></td>
+</tr><tr>
 <td align="center"><a href="http://soundest.com"><img src="{{ site.baseurl }}/static/img/soundest_logo.png" width="140"/></a></td>
 <td align="center"><a href="http://docker.com"><img src="{{ site.baseurl }}/static/img/docker_logo.png" width="145"/></a></td>
 <td align="center"><a href="http://getweave.com"><img src="{{ site.baseurl }}/static/img/weave_logo.png" width="110"/></a></td>
 <td align="center"><a href="http://shipwire.com"><img src="{{ site.baseurl }}/static/img/shipwire_logo.png" width="140"/></a></td>
 <td align="center"><a href="http://digg.com"><img src="{{ site.baseurl }}/static/img/digg_logo.png" width="140"/></a></td>
-</tr><tr>
 <td align="center"><a href="http://scalabull.com"><img src="{{ site.baseurl }}/static/img/scalabull_logo.png" width="110"/></a></td>
+</tr><tr>
 <td align="center"><a href="http://augury.com"><img src="{{ site.baseurl }}/static/img/augury_logo.png" width="110"/></a></td>
 <td align="center:"><a href="http://buzzfeed.com"><img src="{{ site.baseurl }}/static/img/buzzfeed_logo.png" width="97"/></a></td>
 <td align="center"><a href="http://eztable.com"><img src="{{ site.baseurl }}/static/img/eztable_logo.png" width="105"/></a></td>

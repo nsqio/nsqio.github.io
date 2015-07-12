@@ -115,6 +115,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
+    <td><a href="https://github.com/brainlag/JavaNSQClient">JavaNSQClient</a></td>
+    <td>Java</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
     <td><a href="https://github.com/project-fifo/ensq">ensq</a></td>
     <td>Erlang</td>
     <td><i class="fa fa-check"></i></td>

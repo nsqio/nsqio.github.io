@@ -49,23 +49,46 @@ rolling and/or compressing the file.
 
 #### Command Line Options
 
-    -channel="nsq_to_file": nsq channel
-    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/bitly/go-nsq#Config)
-    -datetime-format="%Y-%m-%d_%H": strftime compatible format for <DATETIME> in filename format
-    -filename-format="<TOPIC>.<HOST><GZIPREV>.<DATETIME>.log": output filename format (<TOPIC>, <HOST>, <DATETIME>, <GZIPREV> are replaced. <GZIPREV> is a suffix when an existing gzip file already exists)
-    -gzip=false: gzip output files.
-    -gzip-compression=3: (deprecated) use --gzip-level, gzip compression level (1 = BestSpeed, 2 = BestCompression, 3 = DefaultCompression)
-    -gzip-level=6: gzip compression level (1-9, 1=BestSpeed, 9=BestCompression)
-    -host-identifier="": value to output in log filename in place of hostname. <SHORT_HOST> and <HOSTNAME> are valid replacement tokens
-    -lookupd-http-address=: lookupd HTTP address (may be given multiple times)
-    -max-in-flight=200: max number of messages to allow in flight
-    -nsqd-tcp-address=: nsqd TCP address (may be given multiple times)
-    -output-dir="/tmp": directory to write output files to
-    -reader-opt=: (deprecated) use --consumer-opt
-    -skip-empty-files=false: Skip writting empty files
-    -topic=: nsq topic (may be given multiple times)
-    -topic-refresh=1m0s: how frequently the topic list should be refreshed
-    -version=false: print version string
+    -channel string
+    	nsq channel (default "nsq_to_file")
+    -consumer-opt value
+    	option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/bitly/go-nsq#Config)
+    -datetime-format string
+    	strftime compatible format for <DATETIME> in filename format (default "%Y-%m-%d_%H")
+    -filename-format string
+    	output filename format (<TOPIC>, <HOST>, <PID>, <DATETIME>, <REV> are replaced. <REV> is increased when file already exists) (default "<TOPIC>.<HOST><REV>.<DATETIME>.log")
+    -gzip
+    	gzip output files.
+    -gzip-compression int
+    	(deprecated) use --gzip-level, gzip compression level (1 = BestSpeed, 2 = BestCompression, 3 = DefaultCompression) (default 3)
+    -gzip-level int
+    	gzip compression level (1-9, 1=BestSpeed, 9=BestCompression) (default 6)
+    -host-identifier string
+    	value to output in log filename in place of hostname. <SHORT_HOST> and <HOSTNAME> are valid replacement tokens
+    -lookupd-http-address value
+    	lookupd HTTP address (may be given multiple times)
+    -max-in-flight int
+    	max number of messages to allow in flight (default 200)
+    -nsqd-tcp-address value
+    	nsqd TCP address (may be given multiple times)
+    -output-dir string
+    	directory to write output files to (default "/tmp")
+    -reader-opt value
+    	(deprecated) use --consumer-opt
+    -rotate-interval duration
+    	rotate the file every duration
+    -rotate-size rotate-size
+    	rotate the file when it grows bigger than rotate-size bytes
+    -skip-empty-files
+    	Skip writing empty files
+    -topic value
+    	nsq topic (may be given multiple times)
+    -topic-pattern string
+    	Only log topics matching the following pattern (default ".*")
+    -topic-refresh duration
+    	how frequently the topic list should be refreshed (default 1m0s)
+    -version
+    	print version string
 
 ### nsq\_to_http
 

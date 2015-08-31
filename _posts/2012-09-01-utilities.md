@@ -33,7 +33,7 @@ Consumes the specified topic/channel and writes to stdout (in the spirit of tail
 #### Command Line Options
 
     -channel="": NSQ channel
-    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/bitly/go-nsq#Config)
+    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -lookupd-http-address=: lookupd HTTP address (may be given multiple times)
     -max-in-flight=200: max number of messages to allow in flight
     -n=0: total messages to show (will wait if starved)
@@ -50,7 +50,7 @@ rolling and/or compressing the file.
 #### Command Line Options
 
     -channel string: nsq channel (default "nsq_to_file")
-    -consumer-opt value: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/bitly/go-nsq#Config)
+    -consumer-opt value: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -datetime-format string: strftime compatible format for <DATETIME> in filename format (default "%Y-%m-%d_%H")
     -filename-format string: output filename format (<TOPIC>, <HOST>, <PID>, <DATETIME>, <REV> are replaced. <REV> is increased when file already exists) (default "<TOPIC>.<HOST><REV>.<DATETIME>.log")
     -gzip: gzip output files.
@@ -78,7 +78,7 @@ endpoints.
 #### Command Line Options
 
     -channel="nsq_to_http": nsq channel
-    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/bitly/go-nsq#Config)
+    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -content-type="application/octet-stream": the Content-Type used for POST requests
     -get=: HTTP address to make a GET request to. '%s' will be printf replaced with data (may be given multiple times)
     -http-timeout=20s: timeout for HTTP connect/read/write (each)
@@ -105,7 +105,7 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
 #### Command Line Options
 
     -channel="nsq_to_nsq": nsq channel
-    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, see http://godoc.org/github.com/bitly/go-nsq#Config)
+    -consumer-opt=: option to passthrough to nsq.Consumer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
     -destination-nsqd-tcp-address=: destination nsqd TCP address (may be given multiple times)
     -destination-topic="": destination nsq topic
     -lookupd-http-address=: lookupd HTTP address (may be given multiple times)
@@ -113,7 +113,7 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -max-in-flight=200: max number of messages to allow in flight
     -mode="round-robin": the upstream request mode options: round-robin (default), hostpool
     -nsqd-tcp-address=: nsqd TCP address (may be given multiple times)
-    -producer-opt=: option to passthrough to nsq.Producer (may be given multiple times, see http://godoc.org/github.com/bitly/go-nsq#Config)
+    -producer-opt=: option to passthrough to nsq.Producer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
     -reader-opt=: (deprecated) use --consumer-opt
     -require-json-field="": for JSON messages: only pass messages that contain this field
     -require-json-value="": for JSON messages: only pass messages in which the required field has this value
@@ -131,5 +131,5 @@ TCP.
 
     -delimiter="\n": character to split input from stdin (defaults to '\n')
     -nsqd-tcp-address=: destination nsqd TCP address (may be given multiple times)
-    -producer-opt=: option to passthrough to nsq.Producer (may be given multiple times, http://godoc.org/github.com/bitly/go-nsq#Config)
+    -producer-opt=: option to passthrough to nsq.Producer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -topic="": NSQ topic to publish to

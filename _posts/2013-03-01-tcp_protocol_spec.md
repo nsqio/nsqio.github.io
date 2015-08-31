@@ -376,6 +376,6 @@ And finally, the message format:
                             2-byte
                            attempts
 
-[pull_req_236]: https://github.com/bitly/nsq/pull/236
+[pull_req_236]: https://github.com/nsqio/nsq/pull/236
 [043b79ac]: https://github.com/mreiferson/nsq/commit/043b79acda5fe57056b3cc21b2ef536d5615a2c2]
 [nsqd_auth]: {{ site.baseurl }}/components/nsqd.html

@@ -37,7 +37,7 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td><strong>built-in</strong></td>
   </tr>
   <tr class="success">
-    <td><a href="https://github.com/bitly/go-nsq">go-nsq</a></td>
+    <td><a href="https://github.com/nsqio/go-nsq">go-nsq</a></td>
     <td>Go</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
@@ -50,7 +50,7 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td><strong>official</strong></td>
   </tr>
   <tr class="success">
-    <td><a href="https://github.com/bitly/pynsq">pynsq</a></td>
+    <td><a href="https://github.com/nsqio/pynsq">pynsq</a></td>
     <td>Python</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
@@ -154,7 +154,7 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
-    <td><a href="https://github.com/dustismo/TrendrrNSQClient">TrendrrNSQClient</a></td>
+    <td><a href="https://github.com/nsqio/TrendrrNSQClient">TrendrrNSQClient</a></td>
     <td>Java</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
@@ -219,7 +219,7 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="info">
-    <td><a href="https://github.com/mreiferson/libnsq">libnsq</a></td>
+    <td><a href="https://github.com/nsqio/libnsq">libnsq</a></td>
     <td>C</td>
     <td><i class="fa fa-check"></i></td>
     <td></td>
@@ -258,7 +258,7 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="info">
-    <td><a href="https://github.com/bitly/nsq-java">nsq-java</a></td>
+    <td><a href="https://github.com/nsqio/nsq-java">nsq-java</a></td>
     <td>Java</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>

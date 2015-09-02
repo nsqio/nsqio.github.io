@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
   <div class="row">
-    <div class="col-md-3 sidebar">
+    <div class="col-md-3 col-xs-2 sidebar">
       <ul class="nav navbar-nav">
         {% for category in site.categories %}
           {% if category[0] != "blog" %}
@@ -26,7 +26,7 @@ layout: default
         {% endfor %}
       </ul>
     </div>
-    <div class="col-md-9 doc-content">
+    <div class="col-md-9 col-xs-10 doc-content">
       <h1 class="page-header">{{ page.title }}</h1>
       {{ content }}
     </div>

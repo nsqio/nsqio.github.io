@@ -47,9 +47,6 @@ talks to `nsqlookupd` instances to locate producers and leverages [graphite][gra
 
 You only need to run 1 of these and make it accessible publicly (securely).
 
-There are a few HTML template files that need to be deployed somewhere.  By default `nsqadmin`
-will look in `/usr/local/share/nsqadmin/templates` but can be overridden via `--template-dir`.
-
 To display charts from `graphite`, specify `--graphite-url`.  If you're using a version of `statsd`
 that adds those silly prefixes to all keys, also specify `--use-statsd-prefixes`.  Finally, if 
 graphite isn't accessible publicly you can have `nsqadmin` proxy those requests by specifying

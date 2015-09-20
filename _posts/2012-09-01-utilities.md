@@ -38,7 +38,6 @@ Consumes the specified topic/channel and writes to stdout (in the spirit of tail
     -max-in-flight=200: max number of messages to allow in flight
     -n=0: total messages to show (will wait if starved)
     -nsqd-tcp-address=: nsqd TCP address (may be given multiple times)
-    -reader-opt=: (deprecated) use --consumer-opt
     -topic="": NSQ topic
     -version=false: print version string
 
@@ -54,14 +53,12 @@ rolling and/or compressing the file.
     -datetime-format string: strftime compatible format for <DATETIME> in filename format (default "%Y-%m-%d_%H")
     -filename-format string: output filename format (<TOPIC>, <HOST>, <PID>, <DATETIME>, <REV> are replaced. <REV> is increased when file already exists) (default "<TOPIC>.<HOST><REV>.<DATETIME>.log")
     -gzip: gzip output files.
-    -gzip-compression int: (deprecated) use --gzip-level, gzip compression level (1 = BestSpeed, 2 = BestCompression, 3 = DefaultCompression) (default 3)
     -gzip-level int: gzip compression level (1-9, 1=BestSpeed, 9=BestCompression) (default 6)
     -host-identifier string: value to output in log filename in place of hostname. <SHORT_HOST> and <HOSTNAME> are valid replacement tokens
     -lookupd-http-address value: lookupd HTTP address (may be given multiple times)
     -max-in-flight int: max number of messages to allow in flight (default 200)
     -nsqd-tcp-address value: nsqd TCP address (may be given multiple times)
     -output-dir string: directory to write output files to (default "/tmp")
-    -reader-opt value: (deprecated) use --consumer-opt
     -rotate-interval duration: rotate the file every duration
     -rotate-size rotate-size: rotate the file when it grows bigger than rotate-size bytes
     -skip-empty-files: Skip writing empty files
@@ -82,19 +79,14 @@ endpoints.
     -content-type="application/octet-stream": the Content-Type used for POST requests
     -get=: HTTP address to make a GET request to. '%s' will be printf replaced with data (may be given multiple times)
     -http-timeout=20s: timeout for HTTP connect/read/write (each)
-    -http-timeout-ms=20000: (deprecated) use --http-timeout=X, timeout for HTTP connect/read/write (each)
     -lookupd-http-address=: lookupd HTTP address (may be given multiple times)
-    -max-backoff-duration=2m0s: (deprecated) use --consumer-opt=max_backoff_duration,X
     -max-in-flight=200: max number of messages to allow in flight
     -mode="round-robin": the upstream request mode options: multicast, round-robin, hostpool
     -n=100: number of concurrent publishers
     -nsqd-tcp-address=: nsqd TCP address (may be given multiple times)
     -post=: HTTP address to make a POST request to.  data will be in the body (may be given multiple times)
-    -reader-opt=: (deprecated) use --consumer-opt
-    -round-robin=false: (deprecated) use --mode=round-robin, enable round robin mode
     -sample=1: % of messages to publish (float b/w 0 -> 1)
     -status-every=250: the # of requests between logging status (per handler), 0 disables
-    -throttle-fraction=1: (deprecated) use --sample=X, publish only a fraction of messages
     -topic="": nsq topic
     -version=false: print version string
 
@@ -109,12 +101,10 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -destination-nsqd-tcp-address=: destination nsqd TCP address (may be given multiple times)
     -destination-topic="": destination nsq topic
     -lookupd-http-address=: lookupd HTTP address (may be given multiple times)
-    -max-backoff-duration=2m0s: (deprecated) use --consumer-opt=max_backoff_duration,X
     -max-in-flight=200: max number of messages to allow in flight
     -mode="round-robin": the upstream request mode options: round-robin (default), hostpool
     -nsqd-tcp-address=: nsqd TCP address (may be given multiple times)
     -producer-opt=: option to passthrough to nsq.Producer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
-    -reader-opt=: (deprecated) use --consumer-opt
     -require-json-field="": for JSON messages: only pass messages that contain this field
     -require-json-value="": for JSON messages: only pass messages in which the required field has this value
     -status-every=250: the # of requests between logging status (per destination), 0 disables

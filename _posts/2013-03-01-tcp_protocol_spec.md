@@ -51,12 +51,6 @@ Update client metadata on the server and negotiate features
 
 NOTE: this command takes a size prefixed **JSON** body, relevant fields:
 
- * **`short_id`** (deprecated in favor of **`client_id`** as of `nsqd` `v0.2.28+`) an identifier
-                  used as a short-form descriptor (ie. short hostname)
-
- * **`long_id`** (deprecated in favor of **`hostname`** as of `nsqd` `v0.2.28+`) an identifier
-                 used as a long-form descriptor (ie. fully-qualified hostname)
-
  * **`client_id`** an identifier used to disambiguate this client (ie. something specific
                    to the consumer)
 

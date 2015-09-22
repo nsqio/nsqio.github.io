@@ -24,7 +24,7 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <th>Notes</th>
   </tr>
   <tr class="success">
-    <td><a href="http://nsq.io/components/nsqd.html#http_api">nsqd</a></td>
+    <td><a href="{{ site.baseurl }}/components/nsqd.html#post-pub">nsqd</a></td>
     <td>HTTP</td>
     <td></td>
     <td><i class="fa fa-check"></i></td>

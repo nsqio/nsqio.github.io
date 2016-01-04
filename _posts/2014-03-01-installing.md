@@ -37,7 +37,7 @@ See [the docs][docker_docs] for deploying NSQ with [Docker][docker].
 
 #### Pre-requisites
 
- * **[golang](http://golang.org/doc/install)** (version **`1.2+`** is required)
+ * **[golang](http://golang.org/doc/install)** (version **`1.4+`** is required)
  * **[gpm](https://github.com/pote/gpm)** (dependency manager)
 
 #### Compiling

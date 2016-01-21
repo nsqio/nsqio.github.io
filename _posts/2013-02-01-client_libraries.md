@@ -128,6 +128,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
+    <td><a href="https://github.com/wistia/elixir_nsq">elixir_nsq</a></td>
+    <td>Elixir</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+  </tr>
+  <tr class="success">
     <td><a href="https://github.com/project-fifo/ensq">ensq</a></td>
     <td>Erlang</td>
     <td><i class="fa fa-check"></i></td>

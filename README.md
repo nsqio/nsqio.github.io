@@ -7,8 +7,8 @@ http://nsq.io/
 Offline documentation requires [jekyll][jekyll]:
 
 ```bash
-$ gem install github-pages
-$ jekyll serve --safe --baseurl ''
+$ bundle install
+$ bundle exec jekyll serve --safe --watch --baseurl ''
 ```
 
 [jekyll]: http://jekyllrb.com/

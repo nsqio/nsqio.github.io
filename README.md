@@ -11,6 +11,6 @@ $ bundle install
 $ bundle exec jekyll serve --safe --watch --baseurl ''
 ```
 
-[Boom!](http://0.0.0.0:4000/)
+[Boom!](http://127.0.0.1:4000/)
 
 [jekyll]: http://jekyllrb.com/

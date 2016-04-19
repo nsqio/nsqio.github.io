@@ -76,6 +76,123 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td><strong>official</strong></td>
   </tr>
   <tr class="success">
+    <td><a href="https://github.com/wistia/elixir_nsq">elixir_nsq</a></td>
+    <td>Elixir</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/project-fifo/ensq">ensq</a></td>
+    <td>Erlang</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/brainlag/JavaNSQClient">JavaNSQClient</a></td>
+    <td>Java</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/nsqio/TrendrrNSQClient">TrendrrNSQClient</a></td>
+    <td>Java</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/domwong/nsqjava">nsqjava</a></td>
+    <td>Java</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/segmentio/nsq.js">nsq.js</a></td>
+    <td>JavaScript</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/brianc/node-nsqueue">node-nsqueue</a></td>
+    <td>JavaScript</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/judwhite/NsqSharp">NsqSharp</a></td>
+    <td>.NET</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+  </tr>
+  <tr class="success">
+    <td><a href="https://github.com/davegardnerisme/nsqphp">nsqphp</a></td>
+    <td>PHP</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="success">
       <td><a href="https://github.com/dlecocq/nsq-py">nsq-py</a></td>
       <td>Python</td>
       <td><i class="fa fa-check"></i></td>
@@ -115,110 +232,6 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
-    <td><a href="https://github.com/brainlag/JavaNSQClient">JavaNSQClient</a></td>
-    <td>Java</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/wistia/elixir_nsq">elixir_nsq</a></td>
-    <td>Elixir</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/project-fifo/ensq">ensq</a></td>
-    <td>Erlang</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/segmentio/nsq.js">nsq.js</a></td>
-    <td>JavaScript</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/nsqio/TrendrrNSQClient">TrendrrNSQClient</a></td>
-    <td>Java</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/domwong/nsqjava">nsqjava</a></td>
-    <td>Java</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/davegardnerisme/nsqphp">nsqphp</a></td>
-    <td>PHP</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
-    <td><a href="https://github.com/brianc/node-nsqueue">node-nsqueue</a></td>
-    <td>JavaScript</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
     <td><a href="https://github.com/DaDDyE/ruby_nsq">ruby_nsq</a></td>
     <td>Ruby</td>
     <td><i class="fa fa-check"></i></td>
@@ -245,37 +258,11 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td><strong>official</strong></td>
   </tr>
   <tr class="info">
-    <td><a href="https://github.com/wistia/nsq-ruby">nsq-ruby</a></td>
-    <td>Ruby</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="info">
-    <td><a href="https://github.com/dsoprea/NsqSpinner">NsqSpinner</a></td>
-    <td>Python</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
+    <td><a href="https://github.com/gamelost/hsnsq">hsnsq</a></td>
+    <td>Haskell</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td></td>
-    <td></td>
-  </tr>
-  <tr class="info">
-    <td><a href="https://github.com/nsqio/nsq-java">nsq-java</a></td>
-    <td>Java</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
     <td></td>
     <td></td>
     <td></td>
@@ -284,8 +271,8 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="info">
-    <td><a href="https://github.com/ClothesHorse/NSQnet">NSQnet</a></td>
-    <td>.NET</td>
+    <td><a href="https://github.com/nsqio/nsq-java">nsq-java</a></td>
+    <td>Java</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
@@ -310,11 +297,11 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="info">
-    <td><a href="https://github.com/gamelost/hsnsq">hsnsq</a></td>
-    <td>Haskell</td>
+    <td><a href="https://github.com/ClothesHorse/NSQnet">NSQnet</a></td>
+    <td>.NET</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
-    <td></td>
+    <td><i class="fa fa-check"></i></td>
     <td></td>
     <td></td>
     <td></td>
@@ -325,6 +312,32 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
   <tr class="info">
     <td><a href="https://github.com/melo/perl-anyevent-nsq">perl-anyevent-nsq</a></td>
     <td>Perl</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="info">
+    <td><a href="https://github.com/dsoprea/NsqSpinner">NsqSpinner</a></td>
+    <td>Python</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="info">
+    <td><a href="https://github.com/wistia/nsq-ruby">nsq-ruby</a></td>
+    <td>Ruby</td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>
     <td><i class="fa fa-check"></i></td>

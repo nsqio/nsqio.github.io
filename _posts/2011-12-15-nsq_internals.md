@@ -461,5 +461,5 @@ occurs rather than trying to reduce chattiness at the expense of usefulness.
 [runtime_time]: http://golang.org/src/pkg/runtime/time.goc?s=1684:1787#L83
 [autobench]: https://github.com/davecheney/autobench
 [escape_an]: http://en.wikipedia.org/wiki/Escape_analysis
-[base10_convert]: https://github.com/nsqio/nsq/blob/master/util/byte_base10.go#L7-L27
+[base10_convert]: https://github.com/nsqio/nsq/blob/master/internal/protocol/byte_base10.go#L9-L29
 [topology_patterns]: http://nsq.io/deployment/topology_patterns.html

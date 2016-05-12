@@ -74,7 +74,7 @@ Go runtime's *global* timer scheduler.
 This supports (but is not limited to) the entirety of the `time` package. It normally obviates the
 need for a *user-land* time-ordered priority queue but it's important to keep in mind that it's a
 *single* data structure with a *single* lock, potentially impacting `GOMAXPROCS > 1` performance.
-See [runtime/time.goc][runtime_time].
+See [runtime/time.go][runtime_time].
 
 ## Backend / DiskQueue
 
@@ -458,7 +458,7 @@ occurs rather than trying to reduce chattiness at the expense of usefulness.
 [issue_4720]: https://code.google.com/p/go/issues/detail?id=4720
 [issue_5376]: https://code.google.com/p/go/issues/detail?id=5376
 [godeps]: https://github.com/nsqio/nsq/blob/master/Godeps
-[runtime_time]: http://golang.org/src/pkg/runtime/time.goc?s=1684:1787#L83
+[runtime_time]: http://golang.org/src/pkg/runtime/time.go?s=1684:1787#L83
 [autobench]: https://github.com/davecheney/autobench
 [escape_an]: http://en.wikipedia.org/wiki/Escape_analysis
 [base10_convert]: https://github.com/nsqio/nsq/blob/master/util/byte_base10.go#L7-L27

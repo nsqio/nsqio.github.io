@@ -24,7 +24,7 @@ publishing, consuming, and archiving messages to disk.
 
  5. publish an initial message (creates the topic in the cluster, too):
  
-        $ curl -d 'hello world 1' 'http://127.0.0.1:4151/put?topic=test'
+        $ curl -d 'hello world 1' 'http://127.0.0.1:4151/pub?topic=test'
 
  6. finally, in another shell, start `nsq_to_file`:
 
@@ -32,8 +32,8 @@ publishing, consuming, and archiving messages to disk.
 
  7. publish more messages to `nsqd`:
 
-        $ curl -d 'hello world 2' 'http://127.0.0.1:4151/put?topic=test'
-        $ curl -d 'hello world 3' 'http://127.0.0.1:4151/put?topic=test'
+        $ curl -d 'hello world 2' 'http://127.0.0.1:4151/pub?topic=test'
+        $ curl -d 'hello world 3' 'http://127.0.0.1:4151/pub?topic=test'
 
  8. to verify things worked as expected, in a web browser open `http://127.0.0.1:4171/` to view 
     the `nsqadmin` UI and see statistics.  Also, check the contents of the log files (`test.*.log`) 

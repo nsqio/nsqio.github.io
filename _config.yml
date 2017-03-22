@@ -1,5 +1,5 @@
 source: .
-version: 0.3.8
+version: 1.0.0-compat
 highlighter: pygments
 baseurl: ''
 markdown: kramdown

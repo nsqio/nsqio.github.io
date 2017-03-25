@@ -13,13 +13,24 @@ interface for clients to perform discovery and administrative actions.
 
 ### Command Line Options
 
-    -http-address="0.0.0.0:4161": <addr>:<port> to listen on for HTTP clients
-    -inactive-producer-timeout=5m0s: duration of time a producer will remain in the active list since its last ping
-    -tcp-address="0.0.0.0:4160": <addr>:<port> to listen on for TCP clients
-    -broadcast-address: external address of this lookupd node, (default to the OS hostname)
-    -tombstone-lifetime=45s: duration of time a producer will remain tombstoned if registration remains
-    -verbose=false: enable verbose logging
-    -version=false: print version string
+    -broadcast-address string
+        address of this lookupd node, (default to the OS hostname) (default "PROSNAKES.local")
+    -config string
+        path to config file
+    -http-address string
+        <addr>:<port> to listen on for HTTP clients (default "0.0.0.0:4161")
+    -inactive-producer-timeout duration
+        duration of time a producer will remain in the active list since its last ping (default 5m0s)
+    -log-prefix string
+        log message prefix (default "[nsqlookupd] ")
+    -tcp-address string
+        <addr>:<port> to listen on for TCP clients (default "0.0.0.0:4160")
+    -tombstone-lifetime duration
+        duration of time a producer will remain tombstoned if registration remains (default 45s)
+    -verbose
+        enable verbose logging
+    -version
+        print version string
 
 ### HTTP Interface
 

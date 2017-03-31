@@ -244,6 +244,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
     <td></td>
   </tr>
+  <tr class="success">
+    <td><a href="https://github.com/Qihoo360/evpp/tree/master/apps/evnsq">evnsq</a></td>
+    <td>C++</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+  </tr>
   <tr class="info">
     <td><a href="https://github.com/nsqio/libnsq">libnsq</a></td>
     <td>C</td>

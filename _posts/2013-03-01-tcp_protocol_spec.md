@@ -220,6 +220,35 @@ Error Responses:
     E_BAD_MESSAGE
     E_MPUB_FAILED
 
+#### DPUB
+
+Publish a message to a **topic** deferred:
+
+NOTE: available in `nsqd` `v0.3.6+`
+
+```
+DPUB <topic_name> <defer_time>\n
+[ 4-byte size in bytes ][ N-byte binary data ]
+
+<topic_name> - a valid string (optionally having #ephemeral suffix)
+<defer_time> - a valid defer time (range 0 - maxReqTimout)
+```
+
+Success Response:
+
+```
+OK
+```
+
+Error Responses:
+
+```
+E_INVALID
+E_BAD_TOPIC
+E_BAD_MESSAGE
+E_DPUB_FAILED
+```
+
 #### RDY
 
 Update `RDY` state (indicate you are ready to receive `N` messages)

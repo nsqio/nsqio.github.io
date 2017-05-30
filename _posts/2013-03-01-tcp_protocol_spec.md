@@ -231,7 +231,7 @@ DPUB <topic_name> <defer_time>\n
 [ 4-byte size in bytes ][ N-byte binary data ]
 
 <topic_name> - a valid string (optionally having #ephemeral suffix)
-<defer_time> - a valid defer time (range 0 - maxReqTimout)
+<defer_time> - a string representation of integer D which defines the time for how long to defer where  0 <= D < maxReqTimout
 ```
 
 Success Response:

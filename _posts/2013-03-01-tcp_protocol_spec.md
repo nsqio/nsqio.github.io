@@ -222,7 +222,7 @@ Error Responses:
 
 #### DPUB
 
-Publish a message to a **topic** deferred:
+Publish a deferred message to a  **topic**:
 
 NOTE: available in `nsqd` `v0.3.6+`
 

@@ -222,32 +222,26 @@ Error Responses:
 
 #### DPUB
 
-Publish a deferred message to a  **topic**:
+Publish a deferred message to a **topic**:
 
 NOTE: available in `nsqd` `v0.3.6+`
 
-```
-DPUB <topic_name> <defer_time>\n
-[ 4-byte size in bytes ][ N-byte binary data ]
+    DPUB <topic_name> <defer_time>\n
+    [ 4-byte size in bytes ][ N-byte binary data ]
 
-<topic_name> - a valid string (optionally having #ephemeral suffix)
-<defer_time> - a string representation of integer D which defines the time for how long to defer where  0 <= D < maxReqTimout
-```
+    <topic_name> - a valid string (optionally having #ephemeral suffix)
+    <defer_time> - a string representation of integer D which defines the time for how long to defer where 0 <= D < max-requeue-timeout
 
 Success Response:
 
-```
-OK
-```
+    OK
 
 Error Responses:
 
-```
-E_INVALID
-E_BAD_TOPIC
-E_BAD_MESSAGE
-E_DPUB_FAILED
-```
+    E_INVALID
+    E_BAD_TOPIC
+    E_BAD_MESSAGE
+    E_DPUB_FAILED
 
 #### RDY
 

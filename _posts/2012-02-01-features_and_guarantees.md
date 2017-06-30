@@ -35,7 +35,7 @@ By being transparent about the reality of these tradeoffs we hope to set expecta
   Although the system supports a "release valve" (`--mem-queue-size`) after which messages will
   be transparently kept on disk, it is primarily an *in-memory* messaging platform.
 
-  `--mem-queue-size` can be set to 0 to to ensure that all incoming messages are persisted to disk.
+  `--mem-queue-size` can be set to 0 to ensure that all incoming messages are persisted to disk.
   In this case, if a node failed, you are susceptible to a reduced failure surface (i.e. did the
   OS or underlying IO subsystem fail).
 

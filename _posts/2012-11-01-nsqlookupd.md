@@ -34,7 +34,7 @@ interface for clients to perform discovery and administrative actions.
 
 ### HTTP Interface
 
-#### /lookup
+#### `GET` `/lookup`
 
 Returns a list of producers for a topic
 
@@ -42,11 +42,11 @@ Params:
 
     topic - the topic to list producers for
 
-#### /topics
+#### `GET` `/topics`
 
 Returns a list of all known topics
 
-#### /channels
+#### `GET` `/channels`
 
 Returns a list of all known channels of a topic
 
@@ -54,11 +54,19 @@ Params:
 
     topic - the topic to list channels for
 
-#### /nodes
+#### `GET` `/nodes`
 
 Returns a list of all known `nsqd`
 
-#### /delete_topic
+#### `POST` `/create_topic`
+
+Add a topic to nsqlookupd's registry
+
+Params:
+
+    topic - name of topic
+
+#### `POST` `/delete_topic`
 
 Deletes an existing topic
 
@@ -66,7 +74,16 @@ Params:
 
     topic - the existing topic to delete
 
-#### /delete_channel
+#### `POST` `/create_channel`
+
+Add a channel to nsqlookupd's registry
+
+Params:
+
+    topic - name of topic
+    channel - name of channel
+
+#### `POST` `/delete_channel`
 
 Deletes an existing channel of an existing topic
 
@@ -75,7 +92,7 @@ Params:
     topic - the existing topic
     channel - the existing channel to delete
 
-#### /tombstone_topic_producer
+#### `POST` `/topic/tombstone`
 
 Tombstones a specific producer of an existing topic. See [deletion and
 tombstones](#deletion_tombstones).
@@ -85,11 +102,11 @@ Params:
     topic - the existing topic
     node - the producer (nsqd) to tombstone (identified by <broadcast_address>:<http_port>)
 
-#### /ping
+#### `GET` `/ping`
 
 Monitoring endpoint, should return `OK`
 
-#### /info
+#### `GET` `/info`
 
 Returns version information
 

@@ -58,7 +58,7 @@ Params:
 
 Returns a list of all known `nsqd`
 
-#### `POST` `/create_topic`
+#### `POST` `/topic/create`
 
 Add a topic to nsqlookupd's registry
 
@@ -66,7 +66,7 @@ Params:
 
     topic - name of topic
 
-#### `POST` `/delete_topic`
+#### `POST` `/topic/delete`
 
 Deletes an existing topic
 
@@ -74,7 +74,7 @@ Params:
 
     topic - the existing topic to delete
 
-#### `POST` `/create_channel`
+#### `POST` `/channel/create`
 
 Add a channel to nsqlookupd's registry
 
@@ -83,7 +83,7 @@ Params:
     topic - name of topic
     channel - name of channel
 
-#### `POST` `/delete_channel`
+#### `POST` `/channel/delete`
 
 Deletes an existing channel of an existing topic
 

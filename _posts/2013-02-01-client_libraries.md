@@ -206,19 +206,6 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
-    <td><a href="https://github.com/davegardnerisme/nsqphp">nsqphp</a></td>
-    <td>PHP</td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td><i class="fa fa-check"></i></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr class="success">
     <td><a href="https://github.com/stackerzzq/phpnsq">phpnsq</a></td>
     <td>PHP</td>
     <td><i class="fa fa-check"></i></td>

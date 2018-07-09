@@ -439,6 +439,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
     <td></td>
   </tr>  
+  <tr class="warning">
+    <td><a href="https://github.com/aohan237/asyncnsq">asyncnsq</a></td>
+    <td>Python</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 
 [mailing_list]: https://groups.google.com/forum/#!forum/nsq-users

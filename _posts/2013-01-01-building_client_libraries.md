@@ -82,27 +82,25 @@ endpoint with a query parameter of the topic the consumer is attempting to disco
 
 {% highlight json %}
 {
-    "status_code": 200,
-    "status_txt": "OK",
-    "data": {
-        "channels": ["archive", "science", "metrics"],
-        "producers": [
-            {
-                "broadcast_address": "clicksapi01.routable.domain.net",
-                "hostname": "clicksapi01.domain.net",
-                "tcp_port": 4150,
-                "http_port": 4151,
-                "version": "0.2.18"
-            },
-            {
-                "broadcast_address": "clicksapi02.routable.domain.net",
-                "hostname": "clicksapi02.domain.net",
-                "tcp_port": 4150,
-                "http_port": 4151,
-                "version": "0.2.18"
-            }
-        ]
-    }
+    "channels": ["archive", "science", "metrics"],
+    "producers": [
+        {
+            "broadcast_address": "clicksapi01.routable.domain.net",
+            "hostname": "clicksapi01.domain.net",
+            "remote_address": "172.31.27.114:51996",
+            "tcp_port": 4150,
+            "http_port": 4151,
+            "version": "1.0.0-compat"
+        },
+        {
+            "broadcast_address": "clicksapi02.routable.domain.net",
+            "hostname": "clicksapi02.domain.net",
+            "remote_address": "172.31.34.29:14340",
+            "tcp_port": 4150,
+            "http_port": 4151,
+            "version": "1.0.0-compat"
+        }
+    ]
 }
 {% endhighlight %}
 

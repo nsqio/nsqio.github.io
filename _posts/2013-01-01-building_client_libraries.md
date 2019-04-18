@@ -469,5 +469,5 @@ libraries][client_libraries].
 [go-nsq]: https://github.com/nsqio/go-nsq
 [pynsq]: https://github.com/nsqio/pynsq
 [client_libraries]: {{ site.baseurl }}/clients/client_libraries.html
-[snappy]: https://code.google.com/p/snappy/
+[snappy]: https://google.github.io/snappy/
 [protocol_spec]: {{ site.baseurl }}/clients/tcp_protocol_spec.html

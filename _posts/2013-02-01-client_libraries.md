@@ -387,6 +387,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
     <td></td>
   </tr>
+  <tr class="info">
+    <td><a href="https://github.com/wlgq2/uvnsq">uvnsq</a></td>
+    <td>C++11</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr class="warning">
     <td><a href="https://github.com/thieman/nsq-clojure">nsq-clojure</a></td>
     <td>Clojure</td>

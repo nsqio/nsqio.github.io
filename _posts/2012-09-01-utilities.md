@@ -47,7 +47,7 @@ Consumes the specified topic/channel and writes to stdout (in the spirit of tail
     -channel string
         NSQ channel
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
     -lookupd-http-address value
         lookupd HTTP address (may be given multiple times)
     -max-in-flight int
@@ -71,7 +71,7 @@ rolling and/or compressing the file.
     -channel string
         nsq channel (default "nsq_to_file")
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
     -datetime-format string
         strftime compatible format for <DATETIME> in filename format (default "%Y-%m-%d_%H")
     -filename-format string
@@ -119,7 +119,7 @@ endpoints.
     -channel string
         nsq channel (default "nsq_to_http")
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
     -content-type string
         the Content-Type used for POST requests (default "application/octet-stream")
     -get value
@@ -158,7 +158,7 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -channel string
         nsq channel (default "nsq_to_nsq")
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, see https://godoc.org/github.com/nsqio/go-nsq#Config)
     -destination-nsqd-tcp-address value
         destination nsqd TCP address (may be given multiple times)
     -destination-topic string
@@ -172,7 +172,7 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -nsqd-tcp-address value
         nsqd TCP address (may be given multiple times)
     -producer-opt value
-        option to passthrough to nsq.Producer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Producer (may be given multiple times, see https://godoc.org/github.com/nsqio/go-nsq#Config)
     -require-json-field string
         for JSON messages: only pass messages that contain this field
     -require-json-value string
@@ -198,7 +198,7 @@ TCP.
     -nsqd-tcp-address value
         destination nsqd TCP address (may be given multiple times)
     -producer-opt value
-        option to passthrough to nsq.Producer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Producer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
     -rate int
         Throttle messages to n/second. 0 to disable
     -topic string

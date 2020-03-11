@@ -76,4 +76,4 @@ By being transparent about the reality of these tradeoffs we hope to set expecta
 [nsqlookupd]: https://github.com/nsqio/nsq/tree/master/nsqlookupd/README.md
 [nsqadmin]: https://github.com/nsqio/nsq/tree/master/nsqadmin/README.md
 [statsd]: https://github.com/etsy/statsd/
-[graphite]: http://graphite.wikidot.com/
+[graphite]: https://graphite.wikidot.com/

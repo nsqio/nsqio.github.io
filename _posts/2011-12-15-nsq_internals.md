@@ -266,10 +266,8 @@ There are two main schools of thought:
 **Note:** This really only applies to *binary* packages as it doesn't make sense for an importable
 package to make intermediate decisions as to which version of a dependency to use.
 
-NSQ uses **[gpm][gpm]** to provide support for (2) above.
-
-It works by recording your dependencies in a [`Godeps`][godeps] file, which we later use to
-construct a `GOPATH` environment.
+NSQ uses method (2) above. (It first used [gpm][gpm], then [dep][dep], and now
+uses [Go modules][modules]).
 
 ## Testing
 
@@ -437,6 +435,8 @@ occurs rather than trying to reduce chattiness at the expense of usefulness.
 [design_doc]: https://nsq.io/overview/design.html
 [protocol_spec]: https://nsq.io/clients/tcp_protocol_spec.html
 [gpm]: https://github.com/pote/gpm
+[dep]: https://github.com/golang/dep
+[modules]: https://github.com/golang/go/wiki/Modules
 [hol_blocking]: https://en.wikipedia.org/wiki/Head-of-line_blocking
 [encoding_binary]: https://golang.org/pkg/encoding/binary/
 [byte_order]: https://golang.org/pkg/encoding/binary/#ByteOrder
@@ -453,13 +453,12 @@ occurs rather than trying to reduce chattiness at the expense of usefulness.
 [statsd]: https://github.com/etsy/statsd/
 [sync_pool]: https://groups.google.com/forum/#!topic/golang-dev/kJ_R6vYVYHU
 [testing]: https://golang.org/pkg/testing/
-[benchcmp]: https://golang.org/misc/benchcmp
+[benchcmp]: https://godoc.org/golang.org/x/tools/cmd/benchcmp
 [issue_3512]: https://code.google.com/p/go/issues/detail?id=3512
 [issue_4720]: https://code.google.com/p/go/issues/detail?id=4720
 [issue_5376]: https://code.google.com/p/go/issues/detail?id=5376
-[godeps]: https://github.com/nsqio/nsq/blob/master/Godeps
 [runtime_time]: https://golang.org/src/pkg/runtime/time.go?s=1684:1787#L83
 [autobench]: https://github.com/davecheney/autobench
 [escape_an]: https://en.wikipedia.org/wiki/Escape_analysis
-[base10_convert]: https://github.com/nsqio/nsq/blob/master/internal/protocol/byte_base10.go#L9-L29
+[base10_convert]: https://github.com/nsqio/nsq/blob/v1.2.0/internal/protocol/byte_base10.go#L9-L29
 [topology_patterns]: https://nsq.io/deployment/topology_patterns.html

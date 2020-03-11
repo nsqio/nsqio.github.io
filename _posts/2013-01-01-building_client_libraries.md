@@ -398,7 +398,7 @@ full throttle. Additionally, during a backoff timeout, the client library should
 or failure results with respect to calculating backoff duration (i.e. it should only take into
 account *one* result per backoff timeout).
 
-![nsq_client_flow](http://media.tumblr.com/7adbf06362cc6530153ef35b4dacf2cb/tumblr_inline_mmjev3stkE1qz4rgp.png)
+![nsq_client_flow](https://media.tumblr.com/7adbf06362cc6530153ef35b4dacf2cb/tumblr_inline_mmjev3stkE1qz4rgp.png)
 
 ## Encryption/Compression
 

@@ -32,7 +32,7 @@ Logo created by Wolasi Konu [@kisalow][wolasi_twitter].
 
 [github_issues]: https://github.com/nsqio/nsq/issues
 [github_nsq]: https://github.com/nsqio/nsq
-[google_group]: http://groups.google.com/group/nsq-users
+[google_group]: https://groups.google.com/group/nsq-users
 [snakes_twitter]: https://twitter.com/imsnakes
 [jehiah_twitter]: https://twitter.com/jehiah
 [bitly]: https://bitly.com

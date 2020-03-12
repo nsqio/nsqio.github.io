@@ -63,5 +63,5 @@ For realtime debugging this also works surprisingly well:
 Typically most debugging, analysis, and administration is done via `nsqadmin`.
 
 [statsd]: https://github.com/bitly/statsdaemon
-[graphite]: https://graphite.wikidot.com/
+[graphite]: https://graphiteapp.org/
 [nsqd_statsd]: {{ site.baseurl }}/components/nsqd.html#statsd

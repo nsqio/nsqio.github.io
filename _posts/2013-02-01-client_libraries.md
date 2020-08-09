@@ -1,4 +1,4 @@
---- 
+---
 title: Client Libraries
 layout: post
 category: Clients
@@ -502,6 +502,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
     <td></td>
     <td></td>
+    <td></td>
+  </tr>
+  <tr class="warning">
+    <td><a href="https://github.com/harporoeder/tokio-nsq">tokio-nsq</a></td>
+    <td>Rust</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
     <td></td>
   </tr>
 </table>

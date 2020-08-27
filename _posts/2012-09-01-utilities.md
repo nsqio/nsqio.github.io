@@ -47,7 +47,7 @@ Consumes the specified topic/channel and writes to stdout (in the spirit of tail
     -channel string
         NSQ channel
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -lookupd-http-address value
         lookupd HTTP address (may be given multiple times)
     -max-in-flight int
@@ -56,8 +56,10 @@ Consumes the specified topic/channel and writes to stdout (in the spirit of tail
         total messages to show (will wait if starved)
     -nsqd-tcp-address value
         nsqd TCP address (may be given multiple times)
-    -topic string
-        NSQ topic
+    -print-topic
+        print topic name where message was received
+    -topic value
+        NSQ topic (may be given multiple times)
     -version
         print version string
 
@@ -71,7 +73,7 @@ rolling and/or compressing the file.
     -channel string
         nsq channel (default "nsq_to_file")
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -datetime-format string
         strftime compatible format for <DATETIME> in filename format (default "%Y-%m-%d_%H")
     -filename-format string
@@ -86,6 +88,10 @@ rolling and/or compressing the file.
         timeout for HTTP connect (default 2s)
     -http-client-request-timeout duration
         timeout for HTTP request (default 5s)
+    -log-level string
+        set log verbosity: debug, info, warn, error, or fatal (default "info")
+    -log-prefix string
+        log message prefix (default "[nsq_to_file] ")
     -lookupd-http-address value
         lookupd HTTP address (may be given multiple times)
     -max-in-flight int
@@ -99,15 +105,19 @@ rolling and/or compressing the file.
     -rotate-size rotate-size
         rotate the file when it grows bigger than rotate-size bytes
     -skip-empty-files
-        Skip writing empty files
+        skip writing empty files
+    -sync-interval duration
+        sync file to disk every duration (default 30s)
     -topic value
         nsq topic (may be given multiple times)
     -topic-pattern string
-        Only log topics matching the following pattern
+        only log topics matching the following pattern
     -topic-refresh duration
         how frequently the topic list should be refreshed (default 1m0s)
     -version
         print version string
+    -work-dir string
+        directory for in-progress files before moving to output-dir
 
 ### nsq\_to_http
 
@@ -119,11 +129,13 @@ endpoints.
     -channel string
         nsq channel (default "nsq_to_http")
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -content-type string
         the Content-Type used for POST requests (default "application/octet-stream")
     -get value
         HTTP address to make a GET request to. '%s' will be printf replaced with data (may be given multiple times)
+    -header value
+        Custom header for HTTP requests (may be given multiple times)
     -http-client-connect-timeout duration
         timeout for HTTP connect (default 2s)
     -http-client-request-timeout duration
@@ -158,11 +170,11 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -channel string
         nsq channel (default "nsq_to_nsq")
     -consumer-opt value
-        option to passthrough to nsq.Consumer (may be given multiple times, see https://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Consumer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
     -destination-nsqd-tcp-address value
         destination nsqd TCP address (may be given multiple times)
     -destination-topic string
-        destination nsq topic
+        use this destination topic for all consumed topics (default is consumed topic name)
     -lookupd-http-address value
         lookupd HTTP address (may be given multiple times)
     -max-in-flight int
@@ -172,15 +184,15 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -nsqd-tcp-address value
         nsqd TCP address (may be given multiple times)
     -producer-opt value
-        option to passthrough to nsq.Producer (may be given multiple times, see https://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Producer (may be given multiple times, see http://godoc.org/github.com/nsqio/go-nsq#Config)
     -require-json-field string
         for JSON messages: only pass messages that contain this field
     -require-json-value string
         for JSON messages: only pass messages in which the required field has this value
     -status-every int
         the # of requests between logging status (per destination), 0 disables (default 250)
-    -topic string
-        nsq topic
+    -topic value
+        nsq topic (may be given multiple times)
     -version
         print version string
     -whitelist-json-field value
@@ -198,7 +210,7 @@ TCP.
     -nsqd-tcp-address value
         destination nsqd TCP address (may be given multiple times)
     -producer-opt value
-        option to passthrough to nsq.Producer (may be given multiple times, https://godoc.org/github.com/nsqio/go-nsq#Config)
+        option to passthrough to nsq.Producer (may be given multiple times, http://godoc.org/github.com/nsqio/go-nsq#Config)
     -rate int
         Throttle messages to n/second. 0 to disable
     -topic string

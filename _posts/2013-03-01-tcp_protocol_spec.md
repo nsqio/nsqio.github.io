@@ -1,7 +1,7 @@
 ---
 title: TCP Protocol Spec
 layout: post
-category: clients
+category: Clients
 permalink: /clients/tcp_protocol_spec.html
 ---
 

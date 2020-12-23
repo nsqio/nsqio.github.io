@@ -7,7 +7,15 @@ permalink: /components/utilities.html
 
 These are utilities that facilitate common functionality and introspection into data streams.
 
-### nsq_stat
+ * [nsq_stat](#nsq_stat)
+ * [nsq_tail](#nsq_tail)
+ * [nsq_to_file](#nsq_to_file)
+ * [nsq_to_http](#nsq_to_http)
+ * [nsq_to_nsq](#nsq_to_nsq)
+ * [to_nsq](#to_nsq)
+
+
+## nsq_stat
 
 Polls `/stats` for all the producers of the specified topic/channel and displays aggregate stats
 
@@ -38,7 +46,9 @@ Polls `/stats` for all the producers of the specified topic/channel and displays
     -version
         print version
 
-### nsq_tail
+-----
+
+## nsq_tail
 
 Consumes the specified topic/channel and writes to stdout (in the spirit of tail(1))
 
@@ -63,7 +73,9 @@ Consumes the specified topic/channel and writes to stdout (in the spirit of tail
     -version
         print version string
 
-### nsq\_to_file
+-----
+
+## nsq\_to_file
 
 Consumes the specified topic/channel and writes out to a newline delimited file, optionally
 rolling and/or compressing the file.
@@ -119,7 +131,9 @@ rolling and/or compressing the file.
     -work-dir string
         directory for in-progress files before moving to output-dir
 
-### nsq\_to_http
+-----
+
+## nsq\_to_http
 
 Consumes the specified topic/channel and performs HTTP requests (GET/POST) to the specified
 endpoints.
@@ -161,7 +175,9 @@ endpoints.
     -version
         print version string
 
-### nsq\_to_nsq
+-----
+
+## nsq\_to_nsq
 
 Consumes the specified topic/channel and re-publishes the messages to destination `nsqd` via TCP.
 
@@ -198,7 +214,9 @@ Consumes the specified topic/channel and re-publishes the messages to destinatio
     -whitelist-json-field value
         for JSON messages: pass this field (may be given multiple times)
 
-### to_nsq
+-----
+
+## to_nsq
 
 Takes a stdin stream and splits on newlines (default) for re-publishing to destination `nsqd` via
 TCP.

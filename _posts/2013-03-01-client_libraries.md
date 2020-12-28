@@ -180,6 +180,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
+    <td><a href="https://github.com/abusix/knsq">knsq</a></td>
+    <td>Kotlin</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+  </tr>
+  <tr class="success">
     <td><a href="https://github.com/judwhite/NsqSharp">NsqSharp</a></td>
     <td>.NET</td>
     <td><i class="fa fa-check"></i></td>

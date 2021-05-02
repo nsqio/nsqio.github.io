@@ -17,6 +17,8 @@ publishing, consuming, and archiving messages to disk.
  3. in another shell, start `nsqd`:
 
         $ nsqd --lookupd-tcp-address=127.0.0.1:4160
+    
+    NOTE: if your system hostname does not resolve to `127.0.0.1` then add `--broadcast-address=127.0.0.1`
 
  4. in another shell, start `nsqadmin`:
 

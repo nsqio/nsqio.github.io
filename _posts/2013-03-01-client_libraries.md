@@ -232,6 +232,19 @@ production? Tell us about it on the [mailing list][mailing_list] or Twitter [@im
     <td></td>
   </tr>
   <tr class="success">
+    <td><a href="https://github.com/nsqphp/nsqphp">nsqphp</a></td>
+    <td>PHP</td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+    <td></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+    <td></td>
+  </tr>
+  <tr class="success">
       <td><a href="https://github.com/dlecocq/nsq-py">nsq-py</a></td>
       <td>Python</td>
       <td><i class="fa fa-check"></i></td>

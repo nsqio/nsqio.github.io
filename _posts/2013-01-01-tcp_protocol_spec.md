@@ -37,7 +37,7 @@ behavior.
  * Unless stated otherwise, **all** binary sizes/integers on the wire are **network byte order**
   (ie. *big* endian)
 
- * Valid *topic* and *channel* names are characters `[.a-zA-Z0-9_-]` and `1 < length <= 64` 
+ * Valid *topic* and *channel* names are characters `[.a-zA-Z0-9_-]` and `1 <= length <= 64` 
   (max length was `32` prior to `nsqd` `0.2.28`)
 
 ### Commands

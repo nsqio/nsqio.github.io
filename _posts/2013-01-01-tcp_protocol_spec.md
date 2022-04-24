@@ -35,10 +35,10 @@ behavior.
 ### <a name="notes">Notes</a>
 
  * Unless stated otherwise, **all** binary sizes/integers on the wire are **network byte order**
-  (ie. *big* endian)
+    (ie. *big* endian)
 
  * Valid *topic* and *channel* names are characters `[.a-zA-Z0-9_-]` and `1 <= length <= 64` 
-  (max length was `32` prior to `nsqd` `0.2.28`)
+    (max length was `32` prior to `nsqd` `0.2.28`)
 
 ### Commands
 
@@ -66,7 +66,7 @@ NOTE: this command takes a size prefixed **JSON** body, relevant fields:
 
      `--max-heartbeat-interval` (nsqd flag) controls the max
 
-     Defaults to `--client-timeout / 2`
+     Defaults to `60s`
 
  * **`output_buffer_size`** (`nsqd` `v0.2.21+`) the size in bytes of the buffer nsqd will use when
                             writing to this client.
@@ -160,7 +160,7 @@ Error Responses:
 Subscribe to a topic/channel
 
     SUB <topic_name> <channel_name>\n
-
+    
     <topic_name> - a valid string (optionally having #ephemeral suffix)
     <channel_name> - a valid string (optionally having #ephemeral suffix)
 
@@ -180,7 +180,7 @@ Publish a message to a **topic**:
 
     PUB <topic_name>\n
     [ 4-byte size in bytes ][ N-byte binary data ]
-
+    
     <topic_name> - a valid string (optionally having #ephemeral suffix)
 
 Success Response:
@@ -205,7 +205,7 @@ NOTE: available in `nsqd` `v0.2.16+`
     [ 4-byte num messages ]
     [ 4-byte message #1 size ][ N-byte binary data ]
           ... (repeated <num_messages> times)
-
+    
     <topic_name> - a valid string (optionally having #ephemeral suffix)
 
 Success Response:
@@ -228,7 +228,7 @@ NOTE: available in `nsqd` `v0.3.6+`
 
     DPUB <topic_name> <defer_time>\n
     [ 4-byte size in bytes ][ N-byte binary data ]
-
+    
     <topic_name> - a valid string (optionally having #ephemeral suffix)
     <defer_time> - a string representation of integer D which defines the time for how long to defer where 0 <= D < max-requeue-timeout
 
@@ -250,7 +250,7 @@ Update `RDY` state (indicate you are ready to receive `N` messages)
 NOTE: as of `nsqd` `v0.2.20+` use `--max-rdy-count` to bound this value
 
     RDY <count>\n
-
+    
     <count> - a string representation of integer N where 0 < N <= configured_max
 
 NOTE: there is no success response
@@ -264,7 +264,7 @@ Error Responses:
 Finish a message (indicate *successful* processing)
 
     FIN <message_id>\n
-
+    
     <message_id> - message id as 16-byte hex string
 
 NOTE: there is no success response
@@ -285,7 +285,7 @@ and may change in the future.
 Similarly, a message that is in-flight and times out behaves identically to an explicit `REQ`.
 
     REQ <message_id> <timeout>\n
-
+    
     <message_id> - message id as 16-byte hex string
     <timeout> - a string representation of integer N where N <= configured max timeout
         0 is a special case that will not defer re-queueing
@@ -304,7 +304,7 @@ Reset the timeout for an in-flight message
 NOTE: available in `nsqd` `v0.2.17+`
 
     TOUCH <message_id>\n
-
+    
     <message_id> - the hex id of the message
 
 NOTE: there is no success response
@@ -394,5 +394,5 @@ And finally, the message format:
                            attempts
 
 [pull_req_236]: https://github.com/nsqio/nsq/pull/236
-[043b79ac]: https://github.com/mreiferson/nsq/commit/043b79acda5fe57056b3cc21b2ef536d5615a2c2]
+[043b79ac]: https://github.com/mreiferson/nsq/commit/043b79acda5fe57056b3cc21b2ef536d5615a2c2
 [nsqd_auth]: {{ site.baseurl }}/components/nsqd.html

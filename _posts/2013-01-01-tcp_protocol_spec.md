@@ -288,7 +288,8 @@ Similarly, a message that is in-flight and times out behaves identically to an e
 
     <message_id> - message id as 16-byte hex string
     <timeout> - a string representation of integer N where N <= configured max timeout
-        0 is a special case that will not defer re-queueing
+        timeout == 0 - requeue a message immediately
+        timeout  > 0 - defer requeue for timeout milliseconds
 
 NOTE: there is no success response
 

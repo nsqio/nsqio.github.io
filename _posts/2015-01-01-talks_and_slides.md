@@ -20,10 +20,10 @@ permalink: /talks_and_slides.html
 
  * 2014-01-11 - **Data Days Texas 2014** [slides](https://eric.lubow.org/presentations/data-day-texas-2014/) ([@elubow](https://twitter.com/elubow) of SimpleReach)
 
- * 2014-04-24 - **GopherCon 2014** [video](https://confreaks.com/videos/3429-gophercon2014-spray-some-nsq-on-it) [slides](https://speakerdeck.com/snakes/spray-some-nsq-on-it) ([@imsnakes](https://twitter.com/imsnakes) of Torando Labs)
+ * 2014-04-24 - **GopherCon 2014** [video](https://www.youtube.com/watch?v=CL_SUzXIUuI) [slides](https://speakerdeck.com/snakes/spray-some-nsq-on-it) ([@imsnakes](https://twitter.com/imsnakes) of Torando Labs)
 
  * 2015-06-02 - **Berlin Buzzwords 2015** [video](https://www.youtube.com/watch?v=OwD-W7uU2zU) [slides](https://georgi.io/scale-with-nsq) ([@GeorgiCodes](https://twitter.com/GeorgiCodes) of Bitly)
 
  * 2015-07-30 - **Munich Node.js User Group** [video](https://www.youtube.com/watch?v=xhNapGc6SsU) ([@juliangruber](https://twitter.com/juliangruber) of NowSecure)
  
- * 2018-06-12 - Building a distributed message processing system in Go using NSQ [slides](https://bit.ly/nsqslides) ([@GBrayUT][https://twitter.com/GBrayUT] of Walmart Labs)
+ * 2018-06-12 - Building a distributed message processing system in Go using NSQ [slides](https://bit.ly/nsqslides) ([@GBrayUT](https://twitter.com/GBrayUT) of Walmart Labs)

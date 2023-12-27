@@ -9,7 +9,7 @@ permalink: /deployment/installing.html
 
 Pre-built binaries for linux, darwin, freebsd and windows are available for download:
 
-#### Current Stable Release: **`v1.2.1`**
+#### Current Stable Release: **`v1.3.0`**
 
  * [nsq-1.3.0.darwin-amd64.go1.21.5.tar.gz][1.3.0_darwin]
  * [nsq-1.3.0.darwin-arm64.go1.21.5.tar.gz][1.3.0_darwin_arm64]

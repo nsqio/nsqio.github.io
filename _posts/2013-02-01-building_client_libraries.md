@@ -9,7 +9,7 @@ NSQ's design pushes a lot of responsibility onto client libraries in order to ma
 cluster robustness and performance.
 
 This guide attempts to outline the various responsibilities well-behaved client libraries need to
-fulfill. Because publishing to `nsqd` is trivial (just an HTTP POST to the `/put` endpoint), this
+fulfill. Because publishing to `nsqd` is trivial (just an HTTP POST to the `/pub` endpoint), this
 document focuses on consumers.
 
 By setting these expectations we hope to provide a foundation for achieving consistency across
